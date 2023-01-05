@@ -1,0 +1,14 @@
+@media (max-width: 30em) {
+
+    body > header:nth-child(1) > h1:nth-child(2){
+        font-size: 27px;
+    }
+
+    #navbar{
+       width : 0em;
+    }
+
+    .top10list{
+        width: 100%;
+    }
+  }

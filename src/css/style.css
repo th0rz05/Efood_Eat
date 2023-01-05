@@ -1,0 +1,1100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,200');
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+body *{
+  font-family: sans-serif;
+}
+
+body > header {
+    background-color:orange;
+    align-items: center;
+    box-shadow: 0px 4px 5px orangered
+}
+
+body > header h1 {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 40px;
+    font-family: Poppins;
+}
+
+main {
+    min-height: 40em;
+}
+
+.navbar {
+    background-color: orange;
+    border-left: 0px;
+    border-bottom-right-radius:  5px;
+    border-top-right-radius:  5px;
+    box-shadow: 3px 4px 5px orangered;
+}
+
+.navbar ul {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body > footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar li {
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.navbar li:hover {
+    background-color: rgb(255,255,255,0.2);
+}
+
+.navbar li a {
+    color: white;
+    padding: 30px 0;
+}
+
+.navbar li:last-child {
+    border-bottom: 0px;
+}
+
+
+#signup, #login {
+    display: flex;
+}
+
+#signup {
+    background-color: black;
+    border-radius: 30px;
+}
+
+#signup a {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 30px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    transition: 0.3s;
+}
+
+#signup a:hover {
+    background-color: rgb(255,255,255,0.2);
+}
+
+#login {
+    background-color: white;
+    border-radius: 30px;
+}
+
+#login a {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 30px;
+    background-color: white;
+    align-items: center;
+    color: black;
+    transition: 0.3s;
+}
+
+#login a:hover {
+    background-color: rgb(0,0,0,0.1);
+}
+
+button {
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+}
+
+#usernamebox {
+    color: white;
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+}
+
+.rounded {
+    border-top: 4px solid white;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0;
+}
+
+#profile, #logout, #my_restaurants {
+    overflow: hidden;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: black;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+
+#profile:hover , #logout:hover, #my_restaurants:hover {
+    background-color: rgb(255,255,255,0.2);
+}
+
+.icon_optionsbox {
+    margin: 5px;
+}
+
+#signup_login_form >, #add_forms > {
+    padding:0;
+    margin:0;
+}
+
+#signup_login_form h1, #add_forms h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#signup_login_form, #add_forms {
+  margin: auto;
+  width: 25vw;  
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+  align-items: center;
+}
+
+#add_forms {
+  margin: 15% auto;
+}
+
+#signup_login_form form, #add_forms form{
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#add_forms input[type=file] {
+  width: 90%; 
+  margin: 10px auto;
+  color: #4c4c4c;
+}
+
+#add_forms form .button {
+  width: 90%;
+  margin: 5px auto;
+  border-radius: 5px; 
+}
+
+#signup_login_form input[type=text], #signup_login_form input[type=password], #signup_login_form input[type=tel], #signup_login_form select, #add_forms select, #add_forms input[type=text] {
+  width: 90%; 
+  height: 39px; 
+  border-radius: 5px; 
+  background-color: #fff; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin: 10px auto;
+  padding-left: 10px;
+  color: #4c4c4c;
+  
+  box-sizing: border-box;
+}
+
+#signup_login_form input[type=password]{
+  margin-bottom: 25px;
+}
+
+
+#signup_login_form button {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 5px auto;
+  width: 100px; height: 27px; 
+  border-radius: 5px;
+  background-color: orangered; 
+  box-shadow: 0 3px rgba(255,69,0,.75);
+  transition: all 0.1s linear 0s; 
+  position: relative;
+  margin: 20px auto;
+}
+
+#signup_login_form button:hover {
+  top: 3px;
+  background-color: rgb(255,69,0);
+  box-shadow: none;  
+}
+
+.settings-page * {
+  box-sizing: border-box;
+}
+
+.settings-page {
+  color: orange;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  width: 60vw;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+  
+.page-title {
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+.settings-page .settings-container {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 40px;
+}
+.settings-page .settings-container .settings-title {
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+}
+.settings-page .settings-container .settings-section {
+  width: 100%;
+  border-top: 2px solid #454545;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.settings-page .settings-container .settings-section .my-form {
+  width: 100%;
+}  
+
+.my-form .form-group{
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  gap: 10px;
+  position: relative;
+}
+
+.my-form .form-group .input-group {
+  width: 100%;
+}
+
+.my-form .form-group .input-group input.form-control, .my-form .form-group .input-group select.form-control {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #2e2e2e;
+  color: #e5dada;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.my-form .form-submit {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.form-submit .btn {
+  height: 2.5em;
+  border-radius: 0.25rem;
+  background-color: grey;
+  color: #e5dada;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.form-submit .btn:hover {
+  background-color: #e59500;
+  transform: scale(1.1);
+}
+
+
+.restaurants_page, .dishes_page {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border-radius: 5px;
+}
+
+.restaurants_page header, .dishes_page header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  border-bottom: 1px dashed rgba(0,0,0,0.5);
+}
+
+.restaurants_box, .dishes_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  row-gap: 2em;
+  padding: 2em 0;
+}
+
+#searchrestaurant, #searchdish {
+  width: 60%;
+  height: 30px;
+  border: 5px solid orange;
+  border-radius: 25px;
+  background-color: rgba(255,165,0,0.2);
+  text-align: center;
+  background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' style='fill:orange;'%3E%3Cpath d='M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+#searchrestaurant:focus, #searchdish:focus {
+  outline: none;
+  border: 5px solid rgb(255,130,0);
+}
+
+.restaurant_info_page, .dish_info_page {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border-radius: 5px;
+}
+
+.restaurant_info_page > header, .dish_info_page > header {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.restaurant_info_page > header > h2, .dish_info_page > header > h2 {
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  left: 20px;
+}
+
+.restaurant_info_page header div, .dish_info_page header div {
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 50px;
+  left: 20px;
+}
+
+.restaurant_info_page header img, .dish_info_page header img {
+  width: 100%;
+  margin-top: -25%;
+}
+
+.restaurant_info_page header .fav_icon svg, .dish_info_page header .fav_icon svg{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  stroke: #000000;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+
+.restaurant_info_page header .fav_icon_selected svg, .dish_info_page header .fav_icon_selected svg{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.tab .tablinks {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 44px;
+  line-height: 44px;
+  vertical-align: middle;
+  padding: 0px 16px;
+  margin: 0 5px;
+  transition: 0.3s;
+  color: white;
+  background-color: #4c4c4c;
+  font-size: 16px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+}
+
+.tab .tablinks:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.tab .tablinks.active {
+  background-color: #ebebeb;
+  color: black;
+}
+
+#delete_restaurant {
+  color: #ebebeb;
+  height: 44px;
+  background-color: transparent;
+  float: right;
+  margin-right: 5px;
+}
+
+#delete_restaurant:hover {
+  transform: scale(1.2);
+}
+
+.tabcontent {
+  display: none;
+  padding: 10px;
+  background-color: #ebebeb;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#dishes_opt, #edit_dishes_opt {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.menu_item {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  width: 500px;
+  height: 150px;
+  display: flex;
+  position: relative;
+}
+
+.menu_item img{
+  width: 146px;
+  height: 146px;
+  border-radius: 4px;
+  padding: 2px 2px;
+}
+
+.menu_item #delete_dish_button, .menu_item #add_to_cart_button {
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  right: 10px;
+  top: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.menu_item #edit_dish_info_button, .review_item #delete_review {
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  right: 10px;
+  bottom: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.menu_item button:hover, .review_item button {
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.menu_item a {
+  color: black;
+}
+
+.menu_item #dish_info {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+#dish_info input {
+  height: 30px;
+  margin: 4px 0;
+  border-radius: 5px;
+}
+
+#orders_opt {
+  flex-direction: column;
+  gap: 20px;
+  padding: 2em;
+}
+
+.order_state_box > header {
+  padding-left: 2em;
+  border-bottom: 4px solid orangered;
+  color: orangered;
+  font-size: 18px;
+}
+
+.order_state_box_content{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  gap: 0.5em;
+}
+
+.order {
+  border-radius: 5px;
+  color: white;
+}
+
+.order > header{
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  padding: 0.5em;
+  gap: 0.5em;
+  font-size: 16px;
+}
+
+.order #ord_hd_tt {
+  font-weight: bold;
+}
+
+.dropdown_content {
+  display: none;
+  padding: 1em 2em;
+  margin: 0 0.5em;
+  background-color: rgb(110, 110, 110);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.dropdown_content_item {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.dropdown_content_item p {
+  margin: 0;
+  font-size: 15px;
+}
+
+#dropdown_order_btn {
+  border-radius: 0.5em;
+  padding: auto;
+  color: white;
+}
+
+#dropdown_order_btn:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+#about_opt, #edit_about_opt {
+  flex-direction: column;
+}
+
+#about_item {
+  display: flex;
+  gap: 10px;
+  height: 55px;
+}
+
+#about_item h3 {
+  font-size: 16px;
+  text-align: right;
+  min-width: 200px;
+}
+
+#about_item input {
+  height: 40px;
+  margin: auto 0;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  font-size: 15px;
+  background-color: #ebebeb;
+  color: #4c4c4c;
+}
+
+#about_item p {
+  height: 23px;
+  margin: auto 0;
+  padding-left: 5px;
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+#reviews_opt {
+  flex-direction: column;
+  gap: 10px;
+  padding: 2em;
+}
+
+.review_item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  border: 1px solid #4c4c4c;
+  position: relative;
+}
+
+.review_item header {
+  background-color: #4c4c4c;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  color: #cbc9c9;
+  font-weight: bold;
+}
+
+.review_item .review_content {
+  background-color: #cbc9c9;
+  padding: 5px 10px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.review_item .review_owner_answer {
+  background-color: #cbc9c9;
+  border-top: 1px dashed #4c4c4c;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.review_owner_answer #hd_tt {
+  font-weight: bold;
+  color: #4c4c4c;
+}
+
+#add_comment_to_review {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+#rest_available_opt {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+#fav_restaurants_opt {
+  background-color: lightskyblue;
+}
+
+#fav_dishes_opt {
+  background-color: lightgreen;
+}
+
+#cart_box {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10;
+}
+
+.cartButton {
+  padding: 18px;
+  border-radius: 50%;
+  background-color: orange;
+  box-shadow: 3px 4px 5px orangered;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cartButton:hover {
+  background-color: rgb(255,180,0);
+}
+
+.cartList {
+  cursor: default;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 5px;
+  width: auto;
+  right: 0%;
+  bottom: 110%;
+  box-shadow: 3px 4px 5px orangered;
+}
+
+.cartList ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.cartList ::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 10px;
+}
+ 
+.cartList ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4c4c4c; 
+}
+
+.cartList ::-webkit-scrollbar-thumb:hover {
+  background: #333; 
+}
+
+.cartList header {
+  background-color: orange;
+  color: white;
+  height: 50px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.cartList .cartListContent {
+  margin: 5px 0;
+  height: 400px;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.cartList .cartListContentItem {
+  background-color: white;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+
+.cartList footer {
+  border-top: 2px solid white;
+  height: 35px;
+  padding: 0px 10px;
+  color: white;
+  display: flex;
+}
+
+.cartList footer :first-child {
+  flex: 2;
+}
+
+#numb_cart_items {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
+
+.my_orders_content {
+  flex-direction: column;
+  gap: 20px;
+  padding: 2em;
+}
+
+.favourites_page, .my_restaurants_page, .my_orders_page {
+  width: 60vw;
+  margin: 0 auto;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border-radius: 5px;
+}
+
+.favourites_page > header, .my_restaurants_page > header, .my_orders_page > header {
+  padding: 5px 10px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.favourites_page .tab {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+}
+
+.favourites_page .tablinks:first-child {
+  border: 3px solid lightskyblue;
+  background-color: white;
+  color: lightskyblue;
+}
+
+.favourites_page .tablinks:last-child {
+  border: 3px solid lightgreen;
+  background-color: white;
+  color: lightgreen;
+}
+
+.favourites_page .tablinks {
+  flex: 1;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  color: white;
+  font-size: 16px;
+}
+
+.favourites_page .tablinks:hover {
+  background-color: #ddd;
+}
+
+.favourites_page .tablinks:first-child.active {
+  background-color: lightskyblue;
+  color: white;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+}
+
+.favourites_page .tablinks:last-child.active {
+  background-color: lightgreen;
+  color: white;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+}
+
+.tabcontenteditbuttons {
+  width: 100%;
+}
+
+.editbuttons {
+  float: right;
+  padding: 8px 8px;
+  margin: 0 2px;
+  font-size: 12px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border-radius: 5px;
+  color: white;
+  background-color: #4c4c4c;
+}
+
+.editbuttons:hover {
+  transform: scale(1.05);
+}
+
+.add_review_box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add_review_box #new_review_content {
+  border-radius: 3px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #cbc9c9;
+  border: 1px solid #4c4c4c;
+  height: 150px;
+  text-align: start;
+  text-indent: 0px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  resize: vertical;
+  writing-mode: horizontal-tb !important;
+  column-count: initial !important;
+}
+
+.add_review_box #new_review_rating {
+  border-radius: 3px;
+  color: #4c4c4c;
+  background-color: #cbc9c9;
+  border: 1px solid #4c4c4c;
+  padding: 5px 10px;
+}
+
+.add_comment_to_review_box {
+  display: none;
+}
+
+.add_comment_to_review_box form {
+  flex-grow: 2;
+}
+
+.add_comment_to_review_box #comment_content{
+  width: 100%;
+  border-radius: 3px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 0px;
+  background-color: #cbc9c9;
+  border: 1px solid #4c4c4c;
+  height: 40px;
+  text-align: start;
+  text-indent: 0px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  resize: vertical;
+  writing-mode: horizontal-tb !important;
+  column-count: initial !important;
+}
+
+.add_comment_to_review_box button i {
+  font-size: 14px;
+}
+
+.cartListContent table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  text-align: center;
+}
+
+.cartListContent th, #cart td {
+  padding: 1em;
+  text-align: center;
+}
+
+.cartListContent tr {
+  background-color: #ffddd2;  
+  border: 5px solid white;
+}
+
+.cartListContent thead tr, .cartListContent tfoot tr  {
+  background-color: #cbc9c9;
+}
+
+.cartListContent td.delete a {
+  color: red;
+  text-decoration: none;
+}
+
+
+.checked {
+  color: yellow;
+}
+
+.cartListContent th {
+  padding: 0.5em;
+}
+
+.price::after {
+  content: " €";
+}
+
+#add_new_restaurant {
+  margin: 75px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#add_new_dish {
+  margin: 50px 225px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#add_new_restaurant i, #add_new_dish i {
+  display: block;
+  font-size: 50px;
+  color: #2e2e2e;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #ebebeb;
+  margin: 15% auto; 
+  width: 30%; 
+}
+
+.modal button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.modal button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.modal .cancelbtn, .modal .deletebtn , .modal .addbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.modal .cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.modal .deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.change_state {
+  background-color: orangered;
+  border-radius: 5em;
+  color: white;
+  display: flex;
+  gap: 5px;
+}
+
+.change_state i {
+  margin: auto;
+}
+
+.change_state p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.text-order {
+  height: 35px;
+  width: 70px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+

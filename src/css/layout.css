@@ -1,0 +1,207 @@
+body {
+    margin: 0em;
+    width: 100%;
+}
+
+body > header {
+    position: fixed;
+    top: 0;
+    height: 6em;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+}
+
+body > header h1 {
+    text-align: left;
+    margin-left: 1.5em;
+    height: 50px;
+    flex: 4;
+}
+
+#icon_header {
+    margin-left: 0.6em;
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#icon_header:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;              
+    top: 20vh;
+    height: auto;
+    width: 6em;
+    display: block;
+    transition: 0.2s;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.navbar li {
+    display: block;
+    flex: 1;
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    margin: 20vh auto;
+    z-index: -1;
+    padding: 0px;
+}
+
+body > footer {
+    height: 3em;
+    line-height: 3em;
+}
+
+.login_signup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.user_header, .owner_header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.user_options, .owner_options {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carousel {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.carousel .switchLeft,
+.carousel .switchRight {
+    top: 100px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(0,0,0,0.2);
+    z-index: 3;
+    border-radius: 100%;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+}
+
+.carousel .switchLeft {
+    position: absolute;
+    left: -5px;
+}
+
+.carousel .switchRight {
+    position: absolute;
+    right: -5px;
+}
+
+.carousel .switchLeft:hover,
+.carousel .switchRight:hover {
+    background-color: rgb(0,0,0,0.3);
+}
+
+.carouselbox {
+    margin: 0 60px;
+    height: 250px;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.carouselbox_item {
+    position: relative;
+    margin: 5px 10px;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+}
+
+.carouselbox_item h3 {
+    position: absolute;
+    color: #e5dada;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #2e2e2e;
+    margin: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+}
+
+.carouselbox_item img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    transition: 0.5 ease;
+    z-index: 2;
+    border-radius: 4px;
+}
+
+.carouselbox_item:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+
+.top10list {
+    margin: 0 auto;
+    width: 70vw;
+    max-width: 1220px;
+}
+
+.top10list h2{
+    color: black;
+    font-family: sans-serif;
+    margin-left: 50px;
+    text-shadow: 1px 2px 5px rgba(0,0,0,.31);
+}
