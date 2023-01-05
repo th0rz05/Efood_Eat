@@ -1,6 +1,6 @@
 # Efood Eat
 
-Welcome to Efood Eat, a game developed for the [Web Languages and Technologies Curricular Unit](https://sigarra.up.pt/feup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=501681)
+Welcome to Efood Eat, a game developed for the [Web Languages and Technologies Curricular Unit](https://sigarra.up.pt/feup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=501681) at FEUP.
 
 Efood is a website that allows users to order food from local restaurants or from their own personal restaurant. Users can search for restaurants in their area and browse menus to find their desired items. Once they have found what they want, they can add it to their cart and proceed to checkout.
 
