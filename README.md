@@ -7,7 +7,7 @@ Efood is a website that allows users to order food from local restaurants or fro
 For restaurant owners, Efood provides a platform to receive and manage food orders from customers. Owners can create a profile for their restaurant on the website and list their menu items. They can then receive and fulfill orders through the website, saving time and resources on taking orders over the phone or in person.
 
 ### Video
-[![Yt video](http://img.youtube.com/vi/wLgMS9moBxA/0.jpg)](https://www.youtube.com/watch?v=wLgMS9moBxA "FEUP LBAW 2022 - eFood Eat")
+[![Yt video](http://img.youtube.com/vi/wLgMS9moBxA/0.jpg)](https://www.youtube.com/watch?v=wLgMS9moBxA "FEUP LTW 2022 - eFood Eat")
 
 ## UML
 
